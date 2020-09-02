@@ -23,4 +23,3 @@ poem = """This is all combined\
 # """ = ()
 print(poem)
 
-# 23
