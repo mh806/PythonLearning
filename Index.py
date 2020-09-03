@@ -22,5 +22,3 @@ print(len(task[0]))
 print("Your message was" + str(len(task)) + " long")
 print(id(task))
 print(str(id(task)))
-
-# 32
