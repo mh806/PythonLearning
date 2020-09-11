@@ -28,5 +28,3 @@ print(my_favorite_things, c)
 
 my_least_favorite_things = my_least_favorite_things + ["Editing"]
 print(my_least_favorite_things)
-
-#39
