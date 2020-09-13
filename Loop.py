@@ -29,4 +29,59 @@ for m in range(19):
 print()
 
 print(sum(range(1, 100, 21)))
-# 57
+
+for i in range(len(friends)):
+    print(i, friends[i], end=" ")
+print()
+
+for name in friends:
+    if name == "William":
+        print(name + " is searched")
+        break
+    else:
+        print("Results not found")
+else:
+    # Wont display once loop is broke
+    print("Loop is done")
+
+# pass -> placeholder until have better solution -> otherwise failed
+print("Whats value for i")
+i = int(input())
+
+while i < 10:
+    print("Wow amazing")
+    i += 1
+
+numbers = [1, 52, 15, 88, 40, 22, 78, 11]
+
+square = 500
+while i < len(numbers):
+    if numbers[i] ** 2 > square:
+        print(numbers[i], "square is larger than ", square)
+        break
+
+    print(numbers[i], "square is not larger than", square)
+    i += 1
+else:
+    print("none square are larger than", square)
+
+i = 90
+# do while loop
+while i < 10:
+    print(i)
+    i += 1
+
+while True:
+    print(i)
+    i += 1
+    if i > 9:
+        break
+
+# indefinite loop
+print("do you want to continue Y/N")
+response = input()
+while response == "Y":
+    print("do you want to continue Y/N")
+    response = input()
+
+# 71
