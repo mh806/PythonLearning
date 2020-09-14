@@ -80,8 +80,11 @@ while True:
 # indefinite loop
 print("do you want to continue Y/N")
 response = input()
-while response == "Y":
+while response.lower() == "y" or response.upper() == "Y":
     print("do you want to continue Y/N")
     response = input()
 
-# 71
+# lower and upper
+# islower and isupper
+
+# 74
