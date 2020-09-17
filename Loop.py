@@ -87,4 +87,12 @@ while response.lower() == "y" or response.upper() == "Y":
 # lower and upper
 # islower and isupper
 
-# 74
+# nested loop
+logging = False
+logging_in = True
+name = "William"
+
+if logging_in:
+    if logging:
+        print(name + " is logged in")
+    print("Welcome, " + name)
