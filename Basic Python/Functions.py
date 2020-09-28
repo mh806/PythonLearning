@@ -1,6 +1,3 @@
-from List import people
-
-
 def great(name="User", /, *, be_nice=True):
     if not be_nice:
         return "Who do you think you are"
