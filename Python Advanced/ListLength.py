@@ -1,4 +1,5 @@
 greeting = ["Hi", "Hello", "Waspup", "Yo"]
+greeting2 = {"Hi", "Adam", "Hi", "Smith"}
 
 for i in range(len(greeting)):
     print(greeting[i])
@@ -6,4 +7,5 @@ for i in range(len(greeting)):
 # count -> count repeated times
 print(greeting.count("Hi"))
 
-# 9
+# set {} -> ignore of orders and duplicated values
+print(greeting2)
